@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+    rel="stylesheet"
+    href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link
+    rel="stylesheet"
+    href="../styles.css"
+    />
+    <script defer src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>  
+    <title>Delivery</title>
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+        <!-- Icon and Name -->
+        <a class="navbar-brand" href="../index.html">
+          <img class="logo" src="../assets/icons/logo.png" alt="logo">
+          <span class="text-warning">Fast Burger</span>
+        </a>
+            
+        <!--Menu button-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--Menu collapse items-->
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>      
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/menu.html">Menú</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/about.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/contact.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pages/shopping.html">Carrito</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/faq.html">FAQ</a>
+            </li>
+          </ul>
+
+          <hr class="d-md-none text-white-50">
+
+           <!-- Social Media Icons -->
+          <ul class="navbar-nav flex-row flex-wrap text-light">
+           <li class="nav-item col-6 col-md-auto p-3">
+                <i class="bi bi-twitter"></i>
+                <small class="d-md-none ms-2">Twitter</small>  
+            </li>
+            <li class="nav-item col-6 col-md-auto p-3">
+              <i class="bi bi-github"></i>
+              <small class="d-md-none ms-2">GitHub</small> 
+            </li>
+            <li class="nav-item col-6 col-md-auto p-3">
+              <i class="bi bi-whatsapp"></i>
+              <small class="d-md-none ms-2">WhatsApp</small>
+            </li>
+            <li class="nav-item col-6 col-md-auto p-3">
+              <i class="bi bi-facebook"></i>
+              <small class="d-md-none ms-2">Facebook</small>
+            </li>
+          </ul>
+      </nav>
+
+      <!-- Shoping cart -->
+      <div class="shoping-container">
+        <div class="shoping-row">
+            <div class="shoping-content">
+              <img src="../assets/hamburguesas/bacon1carne.png" alt="bacon1carne">
+              <div class="shoping-info">
+                <p><span>Hamburguesa</span>: Bacon</p>
+                <p><span>Precio</span>: 14$</p>
+                <a href="../pages/menu.html">Sacar del carrito</a>
+              </div>
+            </div>
+            <div class="shoping-content-2">
+              <input class="form-control" type="number" value="2">
+              <div>14$</div>
+            </div>
+        </div>
+
+        <div class="shoping-row">
+          <div class="shoping-content">
+            <img src="../assets/hamburguesas/Menu_Crispy_Chicken.png" alt="bacon1carne">
+            <div class="shoping-info">
+              <p><span>Hamburguesa</span>: Crispy Chicken</p>
+              <p><span>Precio</span>: 12$</p>
+              <a href="../pages/menu.html">Sacar del carrito</a>
+            </div>
+          </div>
+          <div class="shoping-content-2">
+            <input class="form-control" type="number" value="1">
+            <div>12$</div>
+          </div>
+      </div>
+
+      <div class="shoping-row">
+        <div class="shoping-content">
+          <img src="../assets/hamburguesas/BACON_pollo.png" alt="bacon1carne">
+          <div class="shoping-info">
+            <p><span>Hamburguesa</span>: Pollo</p>
+            <p><span>Precio</span>: 16$</p>
+            <a href="../pages/menu.html">Sacar del carrito</a>
+          </div>
+        </div>
+        <div class="shoping-content-2">
+          <input class="form-control" type="number" value="3">
+          <div>16$</div>
+        </div>
+      </div>
+
+      <div class="shoping-prices">
+        <div class="shoping-prices-item-1">
+          <p>SubTotal:</p>
+          <p>Impuestos:</p>
+          <p>Total:</p>
+        </div>
+        <div class="shoping-prices-item">
+          <p>88$</p>
+          <p>10$</p>
+          <p>78$</p>
+        </div>
+      </div>
+    </div>
+
+      <!-- Footer -->
+      <footer>
+        <div class="footer-container cart-page">
+          <div class="footer-section">
+            <h3>Dirección</h3>
+            <p>C. de Valverde, 6, 28004 Madrid</p>
+          </div>
+          <div class="footer-section">
+            <h3>Horario</h3>
+            <p>Lunes-Viernes: 9am-5pm</p>
+          </div>
+          <div class="footer-section">
+            <h3>Días Especiales</h3>
+            <p>24 y 31 de Diciembre: Cerrado</p>
+          </div>
+        </div>
+      </footer>     
+
+  </body>
+</html>

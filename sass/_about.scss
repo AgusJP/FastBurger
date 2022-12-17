@@ -1,0 +1,106 @@
+/*About us*/
+
+.container-about {
+	width: 80vw;
+	text-align: center;
+	margin: 0 auto;
+	padding: 2em;
+	color: #333333;
+}
+
+.about-item {
+	@include flexbox();
+	gap: 5em;
+	margin-bottom: 4em;
+
+	img {
+		width: 35%;
+		height: 35%;
+	}
+}
+
+.about-item-reverse {
+	@include flexbox();
+	flex-direction: row-reverse;
+	gap: 5em;
+	margin-bottom: 4em;
+
+	img {
+		width: 35%;
+		height: 35%;
+	}
+}
+
+.about-content {
+	display: flex;
+	flex-direction: column;
+	width: 35%;
+	gap: 2em;
+
+	h2 {
+		font-size: 2.5em;
+		color: #e39a03;
+		margin: 0;
+	}
+
+	p {
+		line-height: 2em;
+		text-align: left;
+		color: black;
+	}
+}
+
+@media (max-width: 1105px) {
+	.container-about {
+		width: 100vw;
+	}
+}
+
+@media (max-width: 840px) {
+	.container-about {
+		width: 100vw;
+	}
+	.about-item {
+		flex-direction: column;
+		img {
+			width: 50%;
+			height: 50%;
+		}
+	}
+	.about-item-reverse {
+		flex-direction: column;
+		img {
+			width: 50%;
+			height: 50%;
+		}
+	}
+	.about-content {
+		width: 80%;
+	}
+}
+
+@media (max-width: 533px) {
+	.container-about {
+		width: 100vw;
+	}
+	.about-item {
+		flex-direction: column;
+
+		img {
+			width: 80%;
+			height: 80%;
+		}
+	}
+	.about-item-reverse {
+		flex-direction: column;
+
+		img {
+			width: 80%;
+			height: 80%;
+		}
+	}
+    
+	.about-content {
+		width: 80%;
+	}
+}

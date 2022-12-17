@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+    rel="stylesheet"
+    href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link
+    rel="stylesheet"
+    href="../styles.css"
+    />
+    <script defer src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>  
+    <title>Delivery</title>
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+        <!-- Icon and Name -->
+        <a class="navbar-brand" href="../index.html">
+          <img class="logo" src="../assets/icons/logo.png" alt="logo">
+          <span class="text-warning">Fast Burger</span>
+        </a>
+            
+        <!--Menu button-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--Menu collapse items-->
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>      
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/menu.html">Menú</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/about.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/contact.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/shopping.html">Carrito</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pages/faq.html">FAQ</a>
+            </li>
+          </ul>
+
+          <hr class="d-md-none text-white-50">
+
+           <!-- Social Media Icons -->
+          <ul class="navbar-nav flex-row flex-wrap text-light">
+            <li class="nav-item col-6 col-md-auto p-3">
+              <i class="bi bi-twitter"></i>
+              <small class="d-md-none ms-2">Twitter</small>
+            </li>
+            <li class="nav-item col-6 col-md-auto p-3">
+              <i class="bi bi-github"></i>
+              <small class="d-md-none ms-2">GitHub</small>
+            </li>
+            <li class="nav-item col-6 col-md-auto p-3">
+              <i class="bi bi-whatsapp"></i>
+              <small class="d-md-none ms-2">WhatsApp</small>
+            </li>
+            <li class="nav-item col-6 col-md-auto p-3">
+              <i class="bi bi-facebook"></i>
+              <small class="d-md-none ms-2">Facebook</small>
+            </li>
+           
+          </ul>
+      </nav>
+      <!-- FAQ -->
+      <div class="faq-container">
+        <img class="faq-img" src="../assets/faq/faq.svg" alt="faq">
+        <div class="box">
+          <p class="heading">FAQs</p>
+          <div class="faqs">
+            <details>
+                <summary>¿Qué tipos de hamburguesas ofrecen?</summary>
+                <p class="text">Podemos ofrecer una amplia variedad de hamburguesas, desde nuestra clásica hamburguesa de carne hasta opciones vegetarianas y sin gluten.</p>
+            </details>
+            <details>
+                <summary>¿Cómo puedo hacer un pedido?</summary>
+                <p class="text">Puede hacer un pedido a través de nuestro sitio web o llamando a nuestro número de teléfono.</p>
+            </details>
+            <details>
+                <summary>¿Cuáles son los métodos de pago disponibles?</summary>
+                <p class="text">Aceptamos todas las tarjetas de crédito y débito principales, así como pagos en efectivo en el momento de la entrega.</p>
+            </details>
+            <details>
+              <summary>¿Cuáles son las zonas de entrega?</summary>
+              <p class="text">Realizamos entregas en un radio de 5 millas a partir de nuestra ubicación principal.</p>
+            </details>
+            <details>
+              <summary>¿Qué medidas de seguridad toman para garantizar la calidad de la comida?</summary>
+              <p class="text">Tomamos todas las medidas de higiene y seguridad alimentaria necesarias para garantizar la calidad y la seguridad de nuestra comida.</p>
+            </details>
+            <details>
+              <summary>¿Ofrecen opciones vegetarianas o sin gluten?</summary>
+              <p class="text">Sí, ofrecemos una selección de opciones vegetarianas y sin gluten en nuestro menú.</p>
+            </details>
+            <details>
+              <summary>¿Cuál es el tiempo de entrega promedio?</summary>
+              <p class="text">El tiempo de entrega promedio es de 45 minutos a partir del momento en que se recibe el pedido.</p>
+            </details>
+            <details>
+              <summary>¿Ofrecen descuentos o promociones especiales?</summary>
+              <p class="text">Sí, ofrecemos descuentos para pedidos grandes y a veces tenemos promociones especiales en nuestro sitio web o en nuestras redes sociales.</p>
+            </details>
+            <details>
+              <summary>¿Cómo puedo cancelar o modificar un pedido?</summary>
+              <p class="text">Puede cancelar o modificar un pedido llamando a nuestro número de teléfono hasta 30 minutos antes de la hora prevista de entrega.</p>
+            </details>
+            <details>
+              <summary>
+                ¿Qué pasa si mi comida llega tarde o si hay algún problema con mi pedido?</summary>
+              <p class="text">Si su comida llega tarde o si hay algún problema con su pedido, contáctenos y haremos todo lo posible para solucionarlo de inmediato.</p>
+            </details>
+          </div>
+      </div>
+      </div>
+
+      <!-- Footer -->
+      <footer>
+        <div class="footer-container">
+          <div class="footer-section">
+            <h3>Dirección</h3>
+            <p>C. de Valverde, 6, 28004 Madrid</p>
+          </div>
+          <div class="footer-section">
+            <h3>Horario</h3>
+            <p>Lunes-Viernes: 9am-5pm</p>
+          </div>
+          <div class="footer-section">
+            <h3>Días Especiales</h3>
+            <p>24 y 31 de Diciembre: Cerrado</p>
+          </div>
+        </div>
+      </footer>     
+
+  </body>
+</html>

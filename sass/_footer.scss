@@ -1,0 +1,37 @@
+/* Footer */
+
+footer {
+	background-color: rgb(26, 24, 24);
+	color: #ffb02e;
+	padding: 20px;
+
+	p {
+		margin: 0;
+		font-size: 14px;
+		color: #f5e1da;
+	}
+}
+
+.footer-container {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.footer-section {
+	padding: 10px;
+}
+
+h3 {
+	margin: 0;
+	padding-bottom: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #ffb02e;
+}
+
+@media (max-width: 600px) {
+	.footer-container {
+		text-align: center;
+		flex-direction: column;
+	}
+}

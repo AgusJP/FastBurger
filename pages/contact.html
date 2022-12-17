@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="../styles.css" />
+  <script defer src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <title>Delivery</title>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container-fluid">
+      <!-- Icon and Name -->
+      <a class="navbar-brand" href="../index.html">
+        <img class="logo" src="../assets/icons/logo.png" alt="logo">
+          <span class="text-warning">Fast Burger</span>
+      </a>
+
+      <!--Menu button-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!--Menu collapse items-->
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Inicio</a>
+          </li>      
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/menu.html">Menú</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/about.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../pages/contact.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/shopping.html">Carrito</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/faq.html">FAQ</a>
+          </li>
+        </ul>
+
+        <hr class="d-md-none text-white-50">
+
+        <!-- Social Media Icons -->
+        <ul class="navbar-nav flex-row flex-wrap text-light">
+          <li class="nav-item col-6 col-md-auto p-3">
+            <i class="bi bi-twitter"></i>
+            <small class="d-md-none ms-2">Twitter</small>
+          </li>
+          <li class="nav-item col-6 col-md-auto p-3">
+            <i class="bi bi-github"></i>
+            <small class="d-md-none ms-2">GitHub</small>
+          </li>
+          <li class="nav-item col-6 col-md-auto p-3">
+            <i class="bi bi-whatsapp"></i>
+            <small class="d-md-none ms-2">WhatsApp</small>
+          </li>
+          <li class="nav-item col-6 col-md-auto p-3">
+            <i class="bi bi-facebook"></i>
+            <small class="d-md-none ms-2">Facebook</small>
+          </li>
+        </ul>
+  </nav>
+
+
+      <!-- Contact form -->
+      <div class="container-form">
+        <div class="contact-data">
+          <div>
+            <h3>Dirección</h3>
+            <p>C. de Valverde, 6, 28004 Madrid</p>
+            <p>C. la Fuente, 8, 26003 Sevilla</p>
+          </div>
+          <div>
+            <h3>Teléfono</h3>
+            <p>+24 637 578 347</p>
+            <p>+27 665 575 754</p>
+          </div>
+          <div>
+            <h3>Correo</h3>
+            <p>fastburger@gmail.com</p>
+            <p>bestburger@gmail.com</p>
+          </div>
+        </div>
+        <form class="contact-form">
+            <div>
+              <h2>Envíanos un mensaje</h2>
+              <p>Si tiene preguntas o comentarios sobre nuestro servicio de entrega de comida a domicilio, no dude en ponerse en contacto con nosotros.</p>
+            </div>
+
+            <input class="form-control" name="name" type="text"  placeholder="Escribe tu nombre">
+ 
+            <input class="form-control" name="email" type="text" placeholder="Escribe tu correo">
+  
+            <textarea class="form-control" name="message" rows="5"></textarea>
+     
+            <button type="submit">Enviar</button>
+        </form> 
+      </div> 
+ 
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>Dirección</h3>
+        <p>C. de Valverde, 6, 28004 Madrid</p>
+      </div>
+      <div class="footer-section">
+        <h3>Horario</h3>
+        <p>Lunes-Viernes: 9am-5pm</p>
+      </div>
+      <div class="footer-section">
+        <h3>Días Especiales</h3>
+        <p>24 y 31 de Diciembre: Cerrado</p>
+      </div>
+    </div>
+  </footer>
+
+  </div>
+</body>
+
+</html>

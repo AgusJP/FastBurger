@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+    rel="stylesheet"
+    href="node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link
+    rel="stylesheet"
+    href="styles.css"
+    />
+    <script defer src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>  
+    <title>Delivery</title>
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+        <!-- Icon and Name -->
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="./assets/icons/logo.png" alt="logo">
+          <span class="text-warning">Fast Burger</span>
+        </a>
+            
+        <!--Menu button-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--Menu collapse items-->
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>      
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/menu.html">Menú</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/about.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/contact.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/shopping.html">Carrito</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/faq.html">FAQ</a>
+            </li>
+          </ul>
+
+          <hr class="d-md-none text-white-50">
+
+           <!-- Social Media Icons -->
+          <ul class="navbar-nav flex-row flex-wrap text-light">
+            <li class="nav-item col-6 col-md-auto p-3">
+              <i class="bi bi-twitter"></i>
+              <small class="d-md-none ms-2">Twitter</small>
+            </li>
+            <li class="nav-item col-6 col-md-auto p-3">
+              <i class="bi bi-github"></i>
+              <small class="d-md-none ms-2">GitHub</small>
+            </li>
+            <li class="nav-item col-6 col-md-auto p-3">
+              <i class="bi bi-whatsapp"></i>
+              <small class="d-md-none ms-2">WhatsApp</small>
+            </li>
+            <li class="nav-item col-6 col-md-auto p-3">
+              <i class="bi bi-facebook"></i>
+              <small class="d-md-none ms-2">Facebook</small>
+            </li>
+           
+          </ul>
+      </nav>
+
+      <!-- Banner -->
+
+      <div class="banner">
+        <img src="./assets/banner.jpg" alt="banner-hamburguesa">
+        <div class="banner-container">
+          <h1 class="banner-title">¡Hamburguesas a domicilio!</h1>
+          <p class="banner-paragraph">¡Bienvenido a nuestro servicio de comida a domicilio! Somos una empresa local que se dedica a ofrecer deliciosas hamburguesas a nuestros clientes en la comodidad de su hogar. Además, ofrecemos entregas rápidas y un servicio al cliente excepcional para garantizar que su experiencia sea lo más agradable posible.
+          </p>
+          <div class="cta">
+            <a href="./pages/menu.html">Ver Menú</a>
+          </div>
+        </div>
+      </div>
+
+    <section class="section-container">
+        <div class="banner-section">
+          <img src="./assets/icons/hamburguesa.png" alt="hamburguesa">
+          <div>
+            <h3>100 Hamburguesas diferentes</h3>
+            <p>Explora las nuevas hamburguesas</p>
+          </div>    
+        </div>
+
+        <div class="banner-section">
+          <img src="./assets/icons/hamburguesa-menu.png" alt="hamburguesa-menu">
+          <div>
+            <h3>Cheff expertos</h3>
+            <p>Prueba los nuevos menús</p>
+          </div>    
+        </div>
+
+        <div class="banner-section">
+          <img src="./assets/icons/refresco.png" alt="refresco">
+          <div>
+            <h3>Bebida ilimitada</h3>
+            <p>Prueba tu bebida favorita</p>
+          </div>
+        </div>
+    </section> 
+
+      <!-- Footer -->
+      <footer>
+        <div class="footer-container">
+          <div class="footer-section">
+            <h3>Dirección</h3>
+            <p>C. de Valverde, 6, 28004 Madrid</p>
+          </div>
+          <div class="footer-section">
+            <h3>Horario</h3>
+            <p>Lunes-Viernes: 9am-5pm</p>
+          </div>
+          <div class="footer-section">
+            <h3>Días Especiales</h3>
+            <p>24 y 31 de Diciembre: Cerrado</p>
+          </div>
+        </div>
+      </footer>     
+    </body>
+  </body>
+</html>

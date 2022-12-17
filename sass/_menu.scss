@@ -1,0 +1,102 @@
+/* Menú */
+
+.tarjeta-rest-1 {
+	background: url(../assets/hamburguesas/BACON_pollo.png) center;
+	@include menu-cards();
+}
+
+.tarjeta-rest-2 {
+	background: url(../assets/hamburguesas/bacon1carne.png) center;
+	@include menu-cards();
+}
+
+.tarjeta-rest-3 {
+	background: url(../assets/hamburguesas/bacon2carnes.png) center;
+	@include menu-cards();
+}
+
+.tarjeta-rest-4 {
+	background: url(../assets/hamburguesas/doble-cheese-bacon-XXL.png) center;
+	@include menu-cards();
+}
+
+.tarjeta-rest-5 {
+	background: url(../assets/hamburguesas/doble-cheese-becon.png) center;
+	@include menu-cards();
+}
+
+.tarjeta-rest-6 {
+	background: url(../assets/hamburguesas/huevo2carnes.png) center;
+	@include menu-cards();
+}
+
+.tarjeta-rest-7 {
+	background: url(../assets/hamburguesas/BACON_pollo.png) center;
+	@include menu-cards();
+}
+
+.tarjeta-rest-8 {
+	background: url(../assets/hamburguesas/Menu_Doble_Crispy.png) center;
+	@include menu-cards();
+}
+
+.wrap {
+	padding: 2.5rem;
+}
+
+.column-4 {
+	@include grid-columns(4);
+	column-gap: 2rem;
+	row-gap: 2rem;
+}
+
+.wrap-text_tarjeta-rest {
+	color: #fff;
+	padding: 0.5rem;
+	border-radius: 6px;
+	background: linear-gradient(to top, rgb(0 0 0/ 0.5), rgb(0 0 0/ 0.5));
+
+	p {
+		color: #f2f2f2;
+	}
+}
+
+.cta-wrap_tarjeta-rest {
+	display: flex;
+	justify-content: space-between;
+}
+
+.precio_tarjeta-rest {
+	span {
+		font-size: 1.5rem;
+		font-weight: bold;
+	}
+}
+
+.cta_tarjeta-rest {
+	background-color: #d78000;
+	padding: 0.25rem 1rem;
+	border-radius: 4px;
+	a {
+		color: #fff;
+		font-weight: bold;
+	}
+}
+
+@media (max-width: 1250px) {
+	.column-4 {
+		@include grid-columns(3);
+	}
+}
+
+@media (max-width: 900px) {
+	.column-4 {
+		@include grid-columns(2);
+	}
+}
+
+@media (max-width: 595px) {
+	.column-4 {
+		@include grid-columns(1);
+	}
+}
